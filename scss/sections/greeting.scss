@@ -1,3 +1,4 @@
+
 .greeting {
     background-image: url(../images/background/greeting-bg.jpg);
     background-repeat: no-repeat;
@@ -22,6 +23,11 @@
     margin-right: rem(15px);
 }
 
+.header__nav-list {
+    margin: 0;
+    padding: 0;
+}
+
 .header__nav-item {
     display:inline-block;
     vertical-align: middle;
@@ -34,8 +40,8 @@
         width: 5px;
         height: 5px;
         border-radius: 2.5px;
-        background-color: azure;
-        margin: 0 15px;
+        background-color: #fff;
+        margin: 0 12px;
     }
     &:last-child:after{
         display:none;
@@ -45,7 +51,7 @@
 .header__nav-link{
     display: inline-block;
     font-size: 13px;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.42;
     vertical-align: middle;
     transition: .3s;
@@ -56,6 +62,51 @@
     }
 }
 
+.greeting__container {
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.greeting__main {
+    flex-wrap: wrap;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15%;
+}
 
+.greeting__content{
+    display: flex;
+    widows: 100%;
+}
 
+.greeting__content-left, .greeting__content-right {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.greeting__content-right {
+    justify-content: center;    
+    flex-direction: column;
+}
+
+.greeting__content-title{
+    font-size: 72px;
+    color: $darkyellow;
+    font-family: 'Gagalin';
+    font-weight: 300;
+    line-height: 1.42;
+    margin: 0;
+    padding-top: 60px;
+}
+
+.greeting__content-text {
+    color: #fff;
+    font-family: 'Lifehack';
+    font-size: rem(65px);
+    font-weight: 400;
+    line-height: 1;
+}

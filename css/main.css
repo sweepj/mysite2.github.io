@@ -119,6 +119,10 @@ ul {
 .header__nav {
   margin-right: 0.9375rem; }
 
+.header__nav-list {
+  margin: 0;
+  padding: 0; }
+
 .header__nav-item {
   display: inline-block;
   vertical-align: middle;
@@ -131,15 +135,15 @@ ul {
     width: 5px;
     height: 5px;
     border-radius: 2.5px;
-    background-color: azure;
-    margin: 0 15px; }
+    background-color: #fff;
+    margin: 0 12px; }
   .header__nav-item:last-child:after {
     display: none; }
 
 .header__nav-link {
   display: inline-block;
   font-size: 13px;
-  font-weight: 700;
+  font-weight: 500;
   line-height: 1.42;
   vertical-align: middle;
   -webkit-transition: .3s;
@@ -149,5 +153,73 @@ ul {
   color: white; }
   .header__nav-link:hover {
     text-decoration: underline; }
+
+.greeting__container {
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.greeting__main {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-bottom: 15%; }
+
+.greeting__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  widows: 100%; }
+
+.greeting__content-left, .greeting__content-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%; }
+
+.greeting__content-right {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.greeting__content-title {
+  font-size: 72px;
+  color: #f9b43b;
+  font-family: 'Gagalin';
+  font-weight: 300;
+  line-height: 1.42;
+  margin: 0;
+  padding-top: 60px; }
+
+.greeting__content-text {
+  color: #fff;
+  font-family: 'Lifehack';
+  font-size: 4.0625rem;
+  font-weight: 400;
+  line-height: 1; }
 
 /*# sourceMappingURL=main.css.map */
