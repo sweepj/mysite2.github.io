@@ -94,7 +94,7 @@ ul {
     background-color: #cb411b; }
 
 .greeting {
-  background-image: url(../images/background/greeting-bg.jpg);
+  background-image: url(../images/background/greeting-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -134,7 +134,7 @@ ul {
     content: " ";
     width: 5px;
     height: 5px;
-    border-radius: 2.5px;
+    border-radius: 50%;
     background-color: #fff;
     margin: 0 12px; }
   .header__nav-item:last-child:after {
@@ -156,10 +156,6 @@ ul {
 
 .greeting__container {
   height: 100%;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -181,14 +177,13 @@ ul {
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
-  padding-bottom: 15%; }
+  align-items: center; }
 
 .greeting__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  widows: 100%; }
+  width: 100%; }
 
 .greeting__content-left, .greeting__content-right {
   display: -webkit-box;
@@ -206,7 +201,7 @@ ul {
   -ms-flex-direction: column;
   flex-direction: column; }
 
-.greeting__content-title {
+.section__title {
   font-size: 72px;
   color: #f9b43b;
   font-family: 'Gagalin';
@@ -221,5 +216,124 @@ ul {
   font-size: 4.0625rem;
   font-weight: 400;
   line-height: 1; }
+
+.greeting__dropdown {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.greeting__triangle {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  border-bottom-right-radius: 7px;
+  width: 30px;
+  height: 30px; }
+
+.best {
+  background-image: url("../images/background/we-bg.png");
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; }
+
+.best__main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.section__title--best {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 8.3125rem;
+  color: black; }
+
+.best__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+.best__description-item {
+  padding-top: 55px;
+  padding-right: 36px;
+  width: 290px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.best__description-title {
+  padding-top: 34px;
+  text-align: center;
+  font-family: 'Lifehack';
+  font-size: 24px; }
+
+.best__description-text {
+  padding-top: 12px;
+  text-align: justify;
+  text-align-last: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  line-height: 24px;
+  font-size: 'Ubuntu';
+  font-weight: 300;
+  font-size: 0.875rem; }
+
+.reviews__list {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.reviews__item {
+  height: 50%;
+  width: 25%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
 
 /*# sourceMappingURL=main.css.map */

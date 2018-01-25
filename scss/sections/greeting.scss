@@ -1,6 +1,6 @@
 
 .greeting {
-    background-image: url(../images/background/greeting-bg.jpg);
+    background-image: url(../images/background/greeting-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -39,7 +39,7 @@
         content: " ";
         width: 5px;
         height: 5px;
-        border-radius: 2.5px;
+        border-radius: 50%;
         background-color: #fff;
         margin: 0 12px;
     }
@@ -64,7 +64,6 @@
 
 .greeting__container {
     height: 100%;
-    flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,12 +74,11 @@
     flex-grow: 1;
     display: flex;
     align-items: center;
-    padding-bottom: 15%;
 }
 
 .greeting__content{
     display: flex;
-    widows: 100%;
+    width: 100%;
 }
 
 .greeting__content-left, .greeting__content-right {
@@ -93,7 +91,7 @@
     flex-direction: column;
 }
 
-.greeting__content-title{
+.section__title{
     font-size: 72px;
     color: $darkyellow;
     font-family: 'Gagalin';
@@ -109,4 +107,20 @@
     font-size: rem(65px);
     font-weight: 400;
     line-height: 1;
+}
+
+.greeting__dropdown {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting__triangle {
+    transform: rotate(45deg);
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    border-bottom-right-radius: 7px; 
+    width: 30px;
+    height: 30px;
 }
