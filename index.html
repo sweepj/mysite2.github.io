@@ -72,7 +72,7 @@
                     <main class="best__main">
                         <h2 class="section__title section__title--best">Мы лучшие</h2>
                         <div class="best__description">
-                            <ul class="best__description-list">
+                            <ul class="bestw__description-list">
                                 <li class="best__description-item">
                                     <div class="best__description-icon">
                                         <img src="images/content/meat.svg" alt="image description" class="best__description-img">
@@ -105,6 +105,10 @@
                         </div>
                     </main>
                 </div>
+            </section>
+
+            <section class="section team">
+                <div class="container team__container"></div>
             </section>
 
             <section class="section reviews">
@@ -235,17 +239,17 @@
                                     <div class="form__line">
                                         <div class="form__block">
                                             <div class="form__block-radiobtn">
-                                                <input type="radio" class="form__input-radiobtn">
-                                                <label for="form__label-delivery" class="form__input-label">Потребуется сдача</label>
-                                                <input type="radio" class="form__input-radiobtn">
-                                                <label for="form__label-card" class="form__input-label">Оплата по карте</label>
+                                                <input type="radio" class="form__input-radiobtn visuallyhidden" id="form__label-delivery" name="payment">
+                                                <label for="form__label-delivery" class="form__radio-label">Потребуется сдача</label>
+                                                <input type="radio" class="form__input-radiobtn visuallyhidden" id="form__label-card" name="payment">
+                                                <label for="form__label-card" class="form__radio-label">Оплата по карте</label>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="form__line">
-                                        <div class="form__block">
-                                            <input type="checkbox" class="form__block-checkbox">    
-                                            <label for="" class="form__input-label">Не перезванивать</label>
+                                        <div class="form__block-checkbox">
+                                            <input type="checkbox" class="form__input-checkbox visuallyhidden" id="form-checkbox-call">
+                                            <label for="form-checkbox-call" class="form__checkbox-label">Не перезванивать</label>
                                         </div>
                                     </div>
                                     <div class="form__btn">
