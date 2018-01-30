@@ -1,0 +1,47 @@
+.team {
+  background-image: url("../images/background/team-bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.team__container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  background-color: rgba(#2f3234, .94);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team__acco {
+  color: #fff;
+}
+
+.team__acco-cause {
+  font-size: 14px;
+  display: flex;
+  text-decoration: none;
+  font-family: "Gagalin";
+  color: #fff;
+  &::before{
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border: 9px solid transparent;
+    border-bottom-width: 0;
+    border-top-color: $darkyellow;
+  }
+}
+
+.team__acco-avatar {
+  height: 100px;
+}
+
+.team__acco-content {
+  display: flex;
+}
