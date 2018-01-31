@@ -5,6 +5,10 @@
   position: relative;
 }
 
+.team__content {
+  width: 70%;
+}
+
 .team__container {
   position: absolute;
   top: 0;
@@ -17,31 +21,79 @@
   justify-content: center;
 }
 
+.team__acco-item {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
 .team__acco {
   color: #fff;
 }
 
 .team__acco-cause {
   font-size: 14px;
+  font-weight: 400;
   display: flex;
   text-decoration: none;
   font-family: "Gagalin";
   color: #fff;
   &::before{
-    display: block;
-    content: "";
+    content: " ";
+    top: 5px;
+    display:block;
+    position: relative;
+    margin-right: 9px;
     width: 0;
     height: 0;
-    border: 9px solid transparent;
-    border-bottom-width: 0;
+    border: 8px solid transparent;
+    border-bottom-width: 2px;
     border-top-color: $darkyellow;
   }
 }
 
 .team__acco-avatar {
+  width: 100px;
   height: 100px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
+.team__acco-img{
+  display: none;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.team__acco-item--active {
+  .team__acco-cause {
+    color: $darkyellow;
+    &:before{
+      transform: rotate(180deg);
+    }
+  }
+  .team__acco-content {
+    display: flex;
+  }
 }
 
 .team__acco-content {
-  display: flex;
+  padding-left: 25px;
+  padding-top: 17px;
+  display: none;
+}
+
+.team__acco-text {
+  padding-left: 21px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+  width: 209px;
+}
+
+.team__acco-text-title {
+  line-height: 15px;
+  font-weight: 700;
 }

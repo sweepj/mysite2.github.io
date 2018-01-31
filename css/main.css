@@ -136,8 +136,8 @@ ul {
     display: inline-block;
     vertical-align: middle;
     content: " ";
-    width: 5px;
-    height: 5px;
+    width: 4px;
+    height: 4px;
     border-radius: 50%;
     background-color: #fff;
     margin: 0 12px; }
@@ -498,11 +498,18 @@ ul {
   line-height: 15px;
   vertical-align: middle; }
 
+.form__textarea {
+  padding-left: 21px;
+  resize: none; }
+
 .team {
   background-image: url("../images/background/team-bg.jpg");
   background-size: cover;
   background-position: center center;
   position: relative; }
+
+.team__content {
+  width: 70%; }
 
 .team__container {
   position: absolute;
@@ -521,11 +528,16 @@ ul {
   -ms-flex-pack: center;
   justify-content: center; }
 
+.team__acco-item {
+  margin-bottom: 30px;
+  text-align: left; }
+
 .team__acco {
   color: #fff; }
 
 .team__acco-cause {
   font-size: 14px;
+  font-weight: 400;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -533,20 +545,57 @@ ul {
   font-family: "Gagalin";
   color: #fff; }
   .team__acco-cause::before {
+    content: " ";
+    top: 5px;
     display: block;
-    content: "";
+    position: relative;
+    margin-right: 9px;
     width: 0;
     height: 0;
-    border: 9px solid transparent;
-    border-bottom-width: 0;
+    border: 8px solid transparent;
+    border-bottom-width: 2px;
     border-top-color: #f9b43b; }
 
 .team__acco-avatar {
-  height: 100px; }
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  overflow: hidden;
+  background-repeat: no-repeat; }
 
-.team__acco-content {
+.team__acco-img {
+  display: none;
+  max-height: 100%;
+  max-width: 100%; }
+
+.team__acco-item--active .team__acco-cause {
+  color: #f9b43b; }
+  .team__acco-item--active .team__acco-cause:before {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg); }
+
+.team__acco-item--active .team__acco-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+
+.team__acco-content {
+  padding-left: 25px;
+  padding-top: 17px;
+  display: none; }
+
+.team__acco-text {
+  padding-left: 21px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+  width: 209px; }
+
+.team__acco-text-title {
+  line-height: 15px;
+  font-weight: 700; }
 
 /*# sourceMappingURL=main.css.map */
