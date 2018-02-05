@@ -55,8 +55,8 @@ ul {
 
 .container {
   position: relative;
-  width: 940px;
   margin: 0 auto;
+  max-width: 940px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,7 +69,10 @@ ul {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-  flex-direction: column; }
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto; }
 
 .section {
   height: 100%;
@@ -96,6 +99,9 @@ ul {
 .clear-link {
   text-decoration: none;
   color: white; }
+
+.icon {
+  color: #fff; }
 
 .greeting {
   background-image: url(../images/background/greeting-bg.png);
@@ -662,5 +668,38 @@ ul {
   width: 100%;
   line-height: 1.8;
   display: none; }
+
+.footer {
+  background-image: url("../images/background/footer.jpg");
+  background-position: center center;
+  background-size: cover;
+  width: 100%; }
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto; }
+
+.footer__content {
+  height: 58px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff; }
+
+.footer__left, .footer__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 /*# sourceMappingURL=main.css.map */

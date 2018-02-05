@@ -12,12 +12,13 @@
 
 .container {
     position: relative;
-    width: 940px;
     margin: 0 auto;
+    max-width: 940px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    flex: 1 0 auto;
 }
 
 .section{
@@ -46,4 +47,8 @@
 .clear-link {
     text-decoration: none;
     color: white;
+}
+
+.icon {
+    color: #fff;
 }

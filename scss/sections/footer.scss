@@ -1,0 +1,25 @@
+.footer {
+  background-image: url("../images/background/footer.jpg");
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.footer__container{
+  display: flex;
+  flex: 0 0 auto;
+}
+
+.footer__content {
+  height: 58px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.footer__left, .footer__right{
+  display: flex;
+}
+

@@ -1,0 +1,18 @@
+.footer {
+  height: 58px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto; }
+
+.footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.footer__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
