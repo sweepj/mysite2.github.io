@@ -10,6 +10,10 @@
   flex: 0 0 auto;
 }
 
+.footer__contacts {
+  font-size: 14px;
+}
+
 .footer__content {
   height: 58px;
   width: 100%;
@@ -23,3 +27,30 @@
   display: flex;
 }
 
+.footer__contacts-adress {
+  &:before {
+    content: '';
+    wi
+  }
+}
+
+.social__item {
+  display: inline-block;
+  margin-left: 20px;
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.icon {
+  opacity: 0.3;
+  vertical-align: middle;
+  fill: #00bfa5;
+  width: 20px;
+  height: 20px;
+  transition: .3s;
+  &:hover{
+    opacity: 1;
+  }
+
+}

@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <title>Бургеры</title>
+    <script src="./js/svg4everybody.js"></script>
+    <script>
+        svg4everybody();
+    </script>
 </head>
 <body>
     <div class="wrapper">
@@ -194,7 +198,9 @@
                 <ul class="menu-burger__list">
                     <li class="menu-burger__item">
                         <a href="#" class="menu-burger__trigger" style="background-image: url(images/content/menu/meat.jpg)">
-                            <div class="menu-burger__trigger-text">Для мясоедов</div>
+                            <div class="menu-burger__bg">
+                                <div class="menu-burger__trigger-text">Для мясоедов</div>
+                            </div>
                         </a>
                         <div class="menu-burger__content">
                             <div class="menu-burger__text">
@@ -209,8 +215,10 @@
                         </li>
                     <li class="menu-burger__item">
                         <a href="#" class="menu-burger__trigger" style="background-image: url(images/content/menu/veggie.jpg)">
-                            <div class="menu-burger__trigger-text">Для мясоедов</div>
-                        </a> 
+                            <div class="menu-burger__bg">
+                                <div class="menu-burger__trigger-text">Для мясоедов</div>
+                            </div>
+                        </a>
                         <div class="menu-burger__content">
                             <div class="menu-burger__text">
                                 Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный механизм сочленений.
@@ -224,7 +232,9 @@
                     </li>
                     <li class="menu-burger__item" >
                         <a href="#" class="menu-burger__trigger" style="background-image: url(images/content/menu/diet.jpg)">
-                            <div class="menu-burger__trigger-text">Для мясоедов</div>
+                            <div class="menu-burger__bg">
+                                <div class="menu-burger__trigger-text">Для мясоедов</div>
+                            </div>
                         </a> 
                         <div class="menu-burger__content">
                             <div class="menu-burger__text">
@@ -400,21 +410,36 @@
                 <div class="footer__container container">
                     <div class="footer__content">
                         <div class="footer__left">
-                            <div class="footer__location">
-                                <div class="footer__location-text">
+                            <adress class="footer__contacts">
+                                <div class="footer__contacts-adress">
                                     Санкт-Петербург,ул.Бабушкина,д.12/1,15
                                 </div>
-                                <div class="footer__tel">
+                                <a href="tel:+78123771377" class="footer__tel">
                                     +7 (812) 377-13-77
-                                </div>
-                            </div>
+                                </a>
+                            </adress>
                         </div>
                         <div class="footer__right">
                             <ul class="social__icons">
                                 <li class="social__item">
-                                    <svg class="icon" viewBox="0 0 126 72">
-                                        <use xlink:href="#vk"> </use>
+                                    <svg class="icon">
+                                        <use xlink:href="mysprite1.svg#vk"></use>
                                     </svg>
+                                <li class="social__item">
+                                    <svg class="icon">
+                                        <use xlink:href="mysprite1.svg#fb"></use>
+                                    </svg>
+                                </li>
+                                <li class="social__item">
+                                    <svg class="icon">
+                                        <use xlink:href="mysprite1.svg#inst"></use>
+                                    </svg>
+                                </li>
+                                <li class="social__item">
+                                    <svg class="icon">
+                                        <use xlink:href="mysprite1.svg#twitter"></use>
+                                    </svg>
+                                </li>
                                 </li>
                             </ul>
                         </div>

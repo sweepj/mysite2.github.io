@@ -626,6 +626,11 @@ ul {
 .menu-burger__item {
   height: 100%; }
 
+.menu-burger__bg {
+  width: 100%;
+  height: 100%;
+  background: rgba(47, 50, 52, 0.93); }
+
 .menu-burger__trigger {
   width: 80px;
   float: left;
@@ -683,6 +688,9 @@ ul {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto; }
 
+.footer__contacts {
+  font-size: 14px; }
+
 .footer__content {
   height: 58px;
   width: 100%;
@@ -701,5 +709,23 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+
+.social__item {
+  display: inline-block;
+  margin-left: 20px; }
+  .social__item:first-child {
+    margin-left: 0; }
+
+.icon {
+  opacity: 0.3;
+  vertical-align: middle;
+  fill: #00bfa5;
+  width: 20px;
+  height: 20px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s; }
+  .icon:hover {
+    opacity: 1; }
 
 /*# sourceMappingURL=main.css.map */
