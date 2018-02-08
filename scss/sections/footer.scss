@@ -14,6 +14,10 @@
   font-size: 14px;
 }
 
+.footer__contacts-adress {
+  margin-bottom: 5px;
+}
+
 .footer__content {
   height: 58px;
   width: 100%;
@@ -27,12 +31,15 @@
   display: flex;
 }
 
-.footer__contacts-adress {
-  &:before {
-    content: '';
-    wi
-  }
+.footer__tel{
+  text-decoration: none;
+  color: $mainorange;
 }
+
+.footer__tel-icon {
+  margin-right: 5px;
+}
+
 
 .social__item {
   display: inline-block;

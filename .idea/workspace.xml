@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87b967a6-0d42-4bdc-a087-2cfe5d676f2b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/scss/layout/icon.scss" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" afterPath="$PROJECT_DIR$/css/main.css.map" />
-      <change beforePath="$PROJECT_DIR$/images/content/social-icon/mysprite.svg" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/prepros-6.config" afterPath="$PROJECT_DIR$/prepros-6.config" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" afterPath="$PROJECT_DIR$/scss/main.scss" />
       <change beforePath="$PROJECT_DIR$/scss/sections/footer.scss" afterPath="$PROJECT_DIR$/scss/sections/footer.scss" />
-      <change beforePath="$PROJECT_DIR$/scss/sections/menu.scss" afterPath="$PROJECT_DIR$/scss/sections/menu.scss" />
-      <change beforePath="$PROJECT_DIR$/svgo.config" afterPath="$PROJECT_DIR$/svgo.config" />
+      <change beforePath="$PROJECT_DIR$/scss/sections/greeting.scss" afterPath="$PROJECT_DIR$/scss/sections/greeting.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="415" column="38" lean-forward="true" selection-start-line="415" selection-start-column="38" selection-end-line="415" selection-end-column="38" />
+            <state relative-caret-position="585">
+              <caret line="110" column="22" lean-forward="true" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#li#2;n#ul#0;n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -41,8 +36,8 @@
       <file leaf-file-name="menu.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/sections/menu.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="377">
+              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -72,47 +67,47 @@
         <entry file="file://$PROJECT_DIR$/../Папка/svg-begin-icons-webinar/scss/_sprite.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="348">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Папка/svg-begin-icons-webinar/index.html">
+        <entry file="file://$PROJECT_DIR$/../Папка/ls-middle-01-flexbox/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="107" column="38" lean-forward="false" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+            <state relative-caret-position="-145">
+              <caret line="47" column="27" lean-forward="false" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="adjustment.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/layout/adjustment.scss">
+      <file leaf-file-name="greeting.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/sections/greeting.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="766">
+              <caret line="52" column="20" lean-forward="false" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="order-delivery.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scss/sections/order-delivery.scss">
+      <file leaf-file-name="hero.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Папка/ls-middle-01-flexbox/css/blocks/hero.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="696">
+              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/sections/footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+            <state relative-caret-position="493">
+              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -147,6 +142,9 @@
         <option value="$PROJECT_DIR$/scss/sections/menu.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/sections/footer.scss" />
+        <option value="$PROJECT_DIR$/../Папка/ls-middle-01-flexbox/index.html" />
+        <option value="$PROJECT_DIR$/../Папка/ls-middle-01-flexbox/css/blocks/hero.scss" />
+        <option value="$PROJECT_DIR$/scss/sections/greeting.scss" />
       </list>
     </option>
   </component>
@@ -156,11 +154,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="289" />
-    <option name="y" value="166" />
-    <option name="width" value="1272" />
-    <option name="height" value="692" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="683" />
+    <option name="y" value="86" />
+    <option name="width" value="1233" />
+    <option name="height" value="990" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -193,6 +191,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,7 +261,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -327,17 +325,17 @@
       <workItem from="1517931060087" duration="817000" />
       <workItem from="1517932856010" duration="14386000" />
       <workItem from="1518024998938" duration="9278000" />
+      <workItem from="1518104238498" duration="10586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52739000" />
+    <option name="totallyTimeSpent" value="63325000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="289" y="166" width="1920" height="1044" extended-state="6" />
-    <editor active="true" />
+    <frame x="683" y="86" width="1233" height="990" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14767933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16873449" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -367,29 +365,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Project#1/sweepj.github.io/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4674">
-          <caret line="246" column="29" lean-forward="false" selection-start-line="246" selection-start-column="29" selection-end-line="246" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/sections/greeting.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/sections/footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -668,14 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/sections/greeting.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2929">
-          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/svgo.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
@@ -686,7 +653,7 @@
     <entry file="file://$PROJECT_DIR$/images/content/social-icon/mysprite.svg" />
     <entry file="file://$PROJECT_DIR$/scss/layout/adjustment.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
+        <state relative-caret-position="174">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
@@ -716,10 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/sections/menu.scss">
+    <entry file="file://$PROJECT_DIR$/../Папка/svg-begin-icons-webinar/scss/_common.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -735,34 +702,66 @@
     <entry file="file://$PROJECT_DIR$/../Папка/svg-begin-icons-webinar/scss/_sprite.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <caret line="12" column="3" lean-forward="false" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Папка/svg-begin-icons-webinar/scss/_common.scss">
+    <entry file="file://$PROJECT_DIR$/../Папка/ls-middle-01-flexbox/css/blocks/hero.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="116">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/sections/footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Папка/ls-middle-01-flexbox/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="47" column="27" lean-forward="false" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Папка/ls-middle-01-flexbox/css/blocks/hero.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/sections/greeting.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="766">
+          <caret line="52" column="20" lean-forward="false" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/sections/menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="415" column="38" lean-forward="true" selection-start-line="415" selection-start-column="38" selection-end-line="415" selection-end-column="38" />
+        <state relative-caret-position="585">
+          <caret line="110" column="22" lean-forward="true" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#li#2;n#ul#0;n#section#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/sections/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>

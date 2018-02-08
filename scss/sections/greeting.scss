@@ -1,9 +1,6 @@
-
 .greeting {
-    background-image: url(../images/background/greeting-bg.png);
-    background-repeat: no-repeat;
+    background: url(../images/background/greeting-bg.png) center center no-repeat;
     background-size: cover;
-    background-position: 50%;
     position: relative;
 }
 
@@ -31,7 +28,6 @@
 .header__nav-item {
     display:inline-block;
     vertical-align: middle;
-    white-space: nowrap;
     text-transform: uppercase;
     &:after{
         display: inline-block;
@@ -76,16 +72,21 @@
     align-items: center;
 }
 
-.greeting__content{
+.greeting__content {
     display: flex;
     width: 100%;
 }
 
-.greeting__content-left, .greeting__content-right {
+.greeting__content-right {
+    justify-content: center;
     display: flex;
     flex-basis: 50%;
 }
 
+.greeting__content-left{
+    display: block;
+    margin-right: 11px;
+}
 .greeting__content-right {
     justify-content: center;    
     flex-direction: column;

@@ -104,10 +104,8 @@ ul {
   color: #fff; }
 
 .greeting {
-  background-image: url(../images/background/greeting-bg.png);
-  background-repeat: no-repeat;
+  background: url(../images/background/greeting-bg.png) center center no-repeat;
   background-size: cover;
-  background-position: 50%;
   position: relative; }
 
 .header {
@@ -136,7 +134,6 @@ ul {
 .header__nav-item {
   display: inline-block;
   vertical-align: middle;
-  white-space: nowrap;
   text-transform: uppercase; }
   .header__nav-item:after {
     display: inline-block;
@@ -195,12 +192,19 @@ ul {
   display: flex;
   width: 100%; }
 
-.greeting__content-left, .greeting__content-right {
+.greeting__content-right {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-preferred-size: 50%;
   flex-basis: 50%; }
+
+.greeting__content-left {
+  display: block;
+  margin-right: 11px; }
 
 .greeting__content-right {
   -webkit-box-pack: center;
@@ -691,6 +695,9 @@ ul {
 .footer__contacts {
   font-size: 14px; }
 
+.footer__contacts-adress {
+  margin-bottom: 5px; }
+
 .footer__content {
   height: 58px;
   width: 100%;
@@ -709,6 +716,13 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+
+.footer__tel {
+  text-decoration: none;
+  color: #e25028; }
+
+.footer__tel-icon {
+  margin-right: 5px; }
 
 .social__item {
   display: inline-block;
