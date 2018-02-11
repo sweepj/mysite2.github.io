@@ -31,9 +31,9 @@
 }
 
 .best__description-item {
-    padding-top: 55px;
-    padding-right: 36px; 
-    width: 290px;
+    padding-top: rem(55px);
+    padding-right: rem(36px); 
+    width: rem(290px);
     display: inline-flex;  
     flex-direction: column; 
     justify-content: center;
@@ -41,18 +41,18 @@
 }
 
 .best__description-title {
-    padding-top: 34px;
+    padding-top: rem(34px);
     text-align: center;
     font-family: 'Lifehack';
-    font-size: 24px;
+    font-size: rem(24px);
 }
 
 .best__description-text {
-    padding-top: 12px;
+    padding-top: rem(12px);
     text-align: justify;
     text-align-last: center;
     flex-direction: column;
-    line-height: 24px;
+    line-height: rem(24px);
     font-size: 'Ubuntu';
     font-weight: 300;
     font-size: rem(14px);

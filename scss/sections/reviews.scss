@@ -38,22 +38,22 @@
 .reviews__comment {
     width: rem(222px);
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: rem(50px);
     color: #fff;    
 }
 
 .reviews__comment-title {
-    font-size: 14px;
+    font-size: rem(14px);
     font-weight: 400;
     font-family: "Gagalin";
 }
 
 .reviews__comment-text {
-    padding-top: 30px;
-    padding-bottom: 17px;
-    line-height: 24px;
+    padding-top: rem(30px);
+    padding-bottom: rem(17px);
+    line-height: rem(24px);
     font-family: 'Ubuntu';
-    font-size: 14px;
+    font-size: rem(14px);
     font-weight: 300;
     text-align: left;
     color: white;

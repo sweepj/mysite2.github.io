@@ -11,15 +11,15 @@
 }
 
 .footer__contacts {
-  font-size: 14px;
+  font-size: rem(14px);
 }
 
 .footer__contacts-adress {
-  margin-bottom: 5px;
+  margin-bottom: rem(5px);
 }
 
 .footer__content {
-  height: 58px;
+  height: rem(58px);
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -37,13 +37,13 @@
 }
 
 .footer__tel-icon {
-  margin-right: 5px;
+  margin-right: rem(5px);
 }
 
 
 .social__item {
   display: inline-block;
-  margin-left: 20px;
+  margin-left: rem(20px);
   &:first-child {
     margin-left: 0;
   }
@@ -53,8 +53,8 @@
   opacity: 0.3;
   vertical-align: middle;
   fill: #00bfa5;
-  width: 20px;
-  height: 20px;
+  width: rem(20px);
+  height: rem(20px);
   transition: .3s;
   &:hover{
     opacity: 1;

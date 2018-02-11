@@ -30,7 +30,7 @@
 }
 
 .menu-burger__trigger {
-  width: 80px;
+  width: rem(80px);
   float: left;
   display: block;
   height: 100%;
@@ -42,7 +42,7 @@
 }
 
 .menu-burger__trigger-text {
-  font-size: 40px;
+  font-size: rem(40px);
   font-family: "Gagalin";
   color: #fff;
   text-align: center;
@@ -52,7 +52,7 @@
   transform-origin: 0 0;
   left: 50%;
   top: 100%;
-  margin-top: -20px;
+  margin-top: rem(-20px);
 }
 
 .menu-burger__content {
@@ -65,8 +65,8 @@
 
 .menu-burger__text {
   font-family: "Ubuntu";
-  font-size: 14px;
-  padding: 60px 30px;
+  font-size: rem(14px);
+  padding: rem(60px) rem(30px);
   width: 100%;
   line-height: 1.8;
   display: none;

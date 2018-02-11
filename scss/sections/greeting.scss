@@ -9,7 +9,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: rem(10px);
 }
 
 .header__logo {
@@ -33,11 +33,11 @@
         display: inline-block;
         vertical-align: middle;
         content: " ";
-        width: 4px;
-        height: 4px;
+        width: rem(4px);
+        height: rem(4px);
         border-radius: 50%;
         background-color: #fff;
-        margin: 0 12px;
+        margin: 0 rem(12px);
     }
     &:last-child:after{
         display:none;
@@ -46,7 +46,7 @@
 
 .header__nav-link{
     display: inline-block;
-    font-size: 13px;
+    font-size: rem(13px);
     font-weight: 500;
     line-height: 1.42;
     vertical-align: middle;
@@ -85,7 +85,7 @@
 
 .greeting__content-left{
     display: block;
-    margin-right: 11px;
+    margin-right: rem(11px);
 }
 .greeting__content-right {
     justify-content: center;    
@@ -93,7 +93,7 @@
 }
 
 .section__title{
-    font-size: 72px;
+    font-size: rem(72px);
     color: $darkyellow;
     font-family: 'Gagalin';
     font-weight: 300;
@@ -104,7 +104,7 @@
 .greeting__content-text {
     color: #fff;
     font-family: 'Lifehack';
-    font-size: rem(65px);
+    font-size: rem(rem(65px));
     font-weight: 400;
     line-height: 1;
 }
@@ -118,9 +118,9 @@
 
 .greeting__triangle {
     transform: rotate(45deg);
-    border-bottom: 3px solid #fff;
-    border-right: 3px solid #fff;
-    border-bottom-right-radius: 7px; 
-    width: 30px;
-    height: 30px;
+    border-bottom: rem(3px) solid #fff;
+    border-right: rem(3px) solid #fff;
+    border-bottom-right-radius: rem(7px); 
+    width: rem(30px);
+    height: rem(30px);
 }

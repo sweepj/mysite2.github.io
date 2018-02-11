@@ -22,7 +22,7 @@
 }
 
 .team__acco-item {
-  margin-bottom: 30px;
+  margin-bottom: rem(30px);
   text-align: left;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .team__acco-cause {
-  font-size: 14px;
+  font-size: rem(14px);
   font-weight: 400;
   display: flex;
   text-decoration: none;
@@ -39,21 +39,21 @@
   color: #fff;
   &::before{
     content: " ";
-    top: 5px;
+    top: rem(5px);
     display:block;
     position: relative;
-    margin-right: 9px;
+    margin-right: rem(9px);
     width: 0;
     height: 0;
-    border: 8px solid transparent;
-    border-bottom-width: 2px;
+    border: rem(8px) solid transparent;
+    border-bottom-width: rem(2px);
     border-top-color: $darkyellow;
   }
 }
 
 .team__acco-avatar {
-  width: 100px;
-  height: 100px;
+  width: rem(100px);
+  height: rem(100px);
   background-size: cover;
   background-position: center;
   border-radius: 50%;
@@ -80,20 +80,20 @@
 }
 
 .team__acco-content {
-  padding-left: 25px;
-  padding-top: 17px;
+  padding-left: rem(25px);
+  padding-top: rem(17px);
   display: none;
 }
 
 .team__acco-text {
-  padding-left: 21px;
-  font-size: 14px;
-  line-height: 24px;
+  padding-left: rem(21px);
+  font-size: rem(14px);
+  line-height: rem(24px);
   text-align: justify;
-  width: 209px;
+  width: rem(209px);
 }
 
 .team__acco-text-title {
-  line-height: 15px;
+  line-height: rem(15px);
   font-weight: 700;
 }
