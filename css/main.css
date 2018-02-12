@@ -146,6 +146,7 @@ ul {
   position: relative; }
 
 .header {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -405,9 +406,14 @@ ul {
   filter: grayscale(100%);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
   position: relative; }
   .reviews__item:hover .reviews__hover {
     opacity: 1; }
+  @media screen and (max-width: 765px) {
+    .reviews__item {
+      width: 50%;
+      height: 25%; } }
 
 .reviews__title {
   color: white; }
@@ -574,6 +580,21 @@ ul {
 
 .team__content {
   width: 70%; }
+  @media screen and (max-width: 765px) {
+    .team__content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; } }
 
 .team__container {
   position: absolute;
@@ -591,6 +612,9 @@ ul {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center; }
+  @media screen and (max-width: 765px) {
+    .team__container {
+      width: 100%; } }
 
 .team__acco-item {
   margin-bottom: 1.875rem;
@@ -672,6 +696,9 @@ ul {
   color: #fff;
   top: 10%;
   left: 10%; }
+  @media screen and (max-width: 765px) {
+    .section__title-menu {
+      left: 5%; } }
 
 .menu-burger__list {
   position: absolute;

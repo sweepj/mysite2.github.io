@@ -11,12 +11,17 @@
     filter: grayscale(100%);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     position: relative;
     
     &:hover{
         .reviews__hover {
             opacity: 1;
         }
+    }
+    @include tablets{
+        width: 50%;
+        height: 25%;
     }
 }
 

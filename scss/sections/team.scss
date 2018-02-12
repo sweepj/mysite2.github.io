@@ -7,6 +7,13 @@
 
 .team__content {
   width: 70%;
+
+  @include tablets{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .team__container {
@@ -19,15 +26,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  @include tablets {
+    width: 100%;
+  }
 }
 
 .team__acco-item {
   margin-bottom: rem(30px);
   text-align: left;
+  
 }
 
 .team__acco {
   color: #fff;
+
 }
 
 .team__acco-cause {
