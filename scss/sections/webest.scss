@@ -3,19 +3,11 @@
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
-    position: relative;
-}
-
-.best__container {
-    height: 100%;
-}
-
-.best__main {
-    height: 100%;
-    display: flex;
     justify-content: center;
+    text-align: center;
+    display:flex;
     align-items: center;
-    flex-direction: column;
+    background-position: center center;
 }
 
 .section__title--best {
@@ -30,14 +22,17 @@
     flex-direction: column;
 }
 
+
+.best__description-list {
+    display:flex;
+}
+
+
 .best__description-item {
     padding-top: rem(55px);
     padding-right: rem(36px); 
-    width: rem(290px);
-    display: inline-flex;  
+    display: flex;  
     flex-direction: column; 
-    justify-content: center;
-    align-items: center;
 }
 
 .best__description-title {
@@ -52,8 +47,5 @@
     text-align: justify;
     text-align-last: center;
     flex-direction: column;
-    line-height: rem(24px);
-    font-size: 'Ubuntu';
-    font-weight: 300;
     font-size: rem(14px);
 }

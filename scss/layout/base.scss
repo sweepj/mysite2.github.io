@@ -1,7 +1,25 @@
+html{
+
+    @include tablets{
+        font-size: rem(15px);
+    }
+
+    @include phone {
+        font-size: rem(13px);
+    }
+}
+
+
+
+html, 
+body {
+    height: 100%;
+}
+
 body{
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: rem(16px);
     font-family: 'Ubuntu', Arial, Helvetica;
     line-height: 1.42;
     color:$maindark;
@@ -13,22 +31,19 @@ body{
     box-sizing: border-box; 
   }
 
-html, body {
-    height: 100%;
-}
 
 ul {
-    padding: 0px;
-    margin: 0px;
+    padding: rem(0px);
+    margin: rem(0px);
     list-style: none;
 }
 
 //hide an element
 .visuallyhidden {
     position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
+    width: rem(1px);
+    height: rem(1px);
+    margin: rem(-1px);
     border: 0;
     padding: 0;
     white-space: nowrap;

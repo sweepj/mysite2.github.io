@@ -5,19 +5,28 @@
 }
 
 .header {
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: rem(10px);
 }
 
-.header__logo {
-    margin-right: auto;
+.header__menu {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.header__btn{
+    display:flex;
 }
 
 .header__nav {
     margin-right: rem(15px);
+    
+    @include tablets() {
+        display: none;
+    }
 }
 
 .header__nav-list {
@@ -58,7 +67,10 @@
     }
 }
 
+
+
 .greeting__container {
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -70,26 +82,35 @@
     flex-grow: 1;
     display: flex;
     align-items: center;
+    @include tablets {
+        
+    }
 }
 
 .greeting__content {
     display: flex;
-    width: 100%;
+    @include tablets{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 .greeting__content-right {
+    flex-direction: column;
     justify-content: center;
     display: flex;
     flex-basis: 50%;
+
+    @include tablets {
+        flex-basis: none;
+        align-items: center;
+    }
 }
 
 .greeting__content-left{
     display: block;
     margin-right: rem(11px);
-}
-.greeting__content-right {
-    justify-content: center;    
-    flex-direction: column;
 }
 
 .section__title{
@@ -104,9 +125,13 @@
 .greeting__content-text {
     color: #fff;
     font-family: 'Lifehack';
-    font-size: rem(rem(65px));
+    font-size: rem(65px);
     font-weight: 400;
     line-height: 1;
+
+    @include tablets {
+        text-align: center;
+    }
 }
 
 .greeting__dropdown {

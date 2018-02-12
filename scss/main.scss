@@ -3,12 +3,15 @@
 @import "config/mixins.scss";
 @import "config/variables.scss";
 
+// media
+
+@import "media/media.scss";
+
 //layout
 
 @import "layout/font.scss";
 @import "layout/base.scss";
 @import "layout/adjustment.scss";
-@import "layout/icon.scss";
 
 //sections
 @import "sections/fixed-menu";
@@ -19,3 +22,4 @@
 @import "sections/team.scss";
 @import "sections/menu.scss";
 @import "sections/footer.scss";
+
