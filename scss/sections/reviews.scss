@@ -40,28 +40,46 @@
     transition: .3s;
 }
 
+.reviews__comment-detail {
+    @include tablets{
+        margin: 0 auto;
+    }
+}
+
 .reviews__comment {
     width: rem(222px);
     margin: 0 auto;
     padding-top: rem(50px);
-    color: #fff;    
+    color: #fff;
+    @include tablets {
+        display: flex;
+        flex-direction: column;
+        width: 275px;
+        padding-top: 35px;
+    }
 }
 
 .reviews__comment-title {
     font-size: rem(14px);
     font-weight: 400;
     font-family: "Gagalin";
+    @include tablets{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .reviews__comment-text {
     padding-top: rem(30px);
     padding-bottom: rem(17px);
     line-height: rem(24px);
-    font-family: 'Ubuntu';
     font-size: rem(14px);
-    font-weight: 300;
     text-align: left;
     color: white;
+    @include tablets{
+        text-align: center;
+        padding-top: 15px;
+    }
 }
 
 .order-link-reviews {

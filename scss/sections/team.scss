@@ -34,12 +34,16 @@
 .team__acco-item {
   margin-bottom: rem(30px);
   text-align: left;
-  
 }
 
 .team__acco {
   color: #fff;
 
+  @include tablets{
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+  }
 }
 
 .team__acco-cause {
@@ -60,6 +64,10 @@
     border: rem(8px) solid transparent;
     border-bottom-width: rem(2px);
     border-top-color: $darkyellow;
+  }
+  @include tablets {
+    justify-content: center;
+    font-size: 24px;
   }
 }
 
@@ -88,6 +96,10 @@
   }
   .team__acco-content {
     display: flex;
+    @include tablets {
+      align-items: center;
+      flex-direction: column;
+    }
   }
 }
 
@@ -100,12 +112,22 @@
 .team__acco-text {
   padding-left: rem(21px);
   font-size: rem(14px);
-  line-height: rem(24px);
   text-align: justify;
   width: rem(209px);
+  @include tablets {
+    width: 331px;
+    text-align: center;
+    padding: 0;
+    padding-top: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .team__acco-text-title {
   line-height: rem(15px);
   font-weight: 700;
+
+
 }

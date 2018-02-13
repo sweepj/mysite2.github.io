@@ -5,6 +5,8 @@
 }
 
 .section__title-order {
+  display: flex;
+  justify-content: center;
   margin-bottom: rem(44px);
 }
 
@@ -21,8 +23,15 @@
 .form__right, .form__left {
   display: flex;
   flex-basis: 50%;
-  flex-direction: column;
+  flex-direction: column; 
+  @include tablets{
+    width: 470px;
+    align-items: center;
+    justify-content: center;
+  }
 }
+
+
 
 .form__block {
   flex: 1;
@@ -35,11 +44,19 @@
 
 .form__content {
   display: flex;
+  @include tablets{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .form__line {
   display: flex;
   margin-bottom: rem(20px);
+  @include tablets{
+    width: 100%;
+  }
 } 
 
 .form__input {
@@ -105,13 +122,15 @@
   }
 }
 
-.form__input-checkbox:checked + .form__checkbox-label:before {
+.form__input-checkbox:checked {
+   & + .form__checkbox-label:before {
     content: "\2713";
     color: $mainorange;
     text-align: center;
     font-size: rem(20px);
     line-height: rem(15px);
     vertical-align: middle;
+  }
 }
 
 

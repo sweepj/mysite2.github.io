@@ -10,6 +10,11 @@
     background-position: center center;
 }
 
+.best__main {
+    display: flex;
+    flex-direction: column;
+}
+
 .section__title--best {
     display: flex;
     justify-content: center;
