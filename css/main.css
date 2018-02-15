@@ -539,6 +539,70 @@ ul {
       content: "читать отзыв";
       margin-top: 29px; } }
 
+.burgers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.burgers__container {
+  overflow: hidden; }
+
+.burgers__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  will-change: right; }
+
+.burgers__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.burgers__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 441px; }
+
+.right-btn {
+  position: absolute;
+  right: 100px; }
+
+.burgers-btn__slider-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.burgers__triangle-left {
+  -webkit-transform: rotate(145deg);
+  -ms-transform: rotate(145deg);
+  transform: rotate(145deg);
+  border-bottom: 0.1875rem solid black;
+  border-right: 0.1875rem solid black;
+  border-bottom-right-radius: 0.4375rem;
+  width: 1.875rem;
+  height: 1.875rem; }
+
+.burgers__triangle-right {
+  -webkit-transform: rotate(-50deg);
+  -ms-transform: rotate(-50deg);
+  transform: rotate(-50deg);
+  border-bottom: 0.1875rem solid black;
+  border-right: 0.1875rem solid black;
+  border-bottom-right-radius: 0.4375rem;
+  width: 1.875rem;
+  height: 1.875rem; }
+
 .section__order-delivety {
   background-image: url("../images/background/order-bg.jpg");
   background-size: cover;
