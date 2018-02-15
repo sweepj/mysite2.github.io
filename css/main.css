@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'Gagalin';
   src: url("../fonts/gagalin/gagalin-regular-webfont.woff2") format("woff2"), url("../fonts/gagalin/gagalin-regular-webfont.woff") format("woff");
@@ -16,7 +17,7 @@
 
 @media screen and (max-width: 480px) {
   html {
-    font-size: 0.8125rem; } }
+    font-size: 0.875rem; } }
 
 html,
 body {
@@ -273,8 +274,6 @@ ul {
   flex-basis: 50%; }
   @media screen and (max-width: 765px) {
     .greeting__content-right {
-      -ms-flex-preferred-size: none;
-      flex-basis: none;
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center; } }
@@ -282,6 +281,9 @@ ul {
 .greeting__content-left {
   display: block;
   margin-right: 0.6875rem; }
+  @media screen and (max-width: 480px) {
+    .greeting__content-left {
+      max-width: 100%; } }
 
 .section__title {
   font-size: 4.5rem;
@@ -312,6 +314,9 @@ ul {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  @media screen and (max-width: 480px) {
+    .greeting__dropdown {
+      margin-bottom: 31px; } }
 
 .greeting__triangle {
   -webkit-transform: rotate(45deg);
@@ -328,6 +333,7 @@ ul {
   background-position: 50%;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -337,8 +343,7 @@ ul {
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
-  background-position: center center; }
+  align-items: center; }
 
 .best__main {
   display: -webkit-box;
@@ -374,6 +379,12 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  @media screen and (max-width: 480px) {
+    .best__description-list {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
 
 .best__description-item {
   padding-top: 3.4375rem;
@@ -385,12 +396,29 @@ ul {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column; }
+  @media screen and (max-width: 480px) {
+    .best__description-item {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row; } }
 
 .best__description-title {
   padding-top: 2.125rem;
   text-align: center;
   font-family: 'Lifehack';
   font-size: 1.5rem; }
+  @media screen and (max-width: 480px) {
+    .best__description-title {
+      padding: 0;
+      text-align: left; } }
+
+@media screen and (max-width: 480px) {
+  .best__description-icon {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
 
 .best__description-text {
   padding-top: 0.75rem;
@@ -401,6 +429,10 @@ ul {
   -ms-flex-direction: column;
   flex-direction: column;
   font-size: 0.875rem; }
+  @media screen and (max-width: 480px) {
+    .best__description-text {
+      text-align: left;
+      text-align-last: auto; } }
 
 .reviews__list {
   width: 100%;
@@ -462,6 +494,10 @@ ul {
       flex-direction: column;
       width: 275px;
       padding-top: 35px; } }
+  @media screen and (max-width: 480px) {
+    .reviews__comment {
+      padding-top: 45px;
+      width: auto; } }
 
 .reviews__comment-title {
   font-size: 0.875rem;
@@ -475,6 +511,9 @@ ul {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center; } }
+  @media screen and (max-width: 480px) {
+    .reviews__comment-title {
+      font-size: 24px; } }
 
 .reviews__comment-text {
   padding-top: 1.875rem;
@@ -487,11 +526,18 @@ ul {
     .reviews__comment-text {
       text-align: center;
       padding-top: 15px; } }
+  @media screen and (max-width: 480px) {
+    .reviews__comment-text {
+      display: none; } }
 
 .order-link-reviews {
   background-color: #2f3234; }
   .order-link-reviews:hover {
     background-color: #1e2021; }
+  @media screen and (max-width: 480px) {
+    .order-link-reviews {
+      content: "читать отзыв";
+      margin-top: 29px; } }
 
 .section__order-delivety {
   background-image: url("../images/background/order-bg.jpg");
@@ -506,6 +552,12 @@ ul {
   -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 2.75rem; }
+  @media screen and (max-width: 765px) {
+    .section__title-order {
+      text-align: center; } }
+  @media screen and (max-width: 480px) {
+    .section__title-order {
+      text-align: center; } }
 
 .order-delivety {
   display: -webkit-box;
@@ -540,6 +592,9 @@ ul {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center; } }
+  @media screen and (max-width: 480px) {
+    .form__right, .form__left {
+      width: 97%; } }
 
 .form__block {
   -webkit-box-flex: 1;
@@ -549,6 +604,10 @@ ul {
 
 .form__block-title {
   color: #fff; }
+
+@media screen and (max-width: 480px) {
+  .form-mobile__none {
+    display: none; } }
 
 .form__content {
   display: -webkit-box;

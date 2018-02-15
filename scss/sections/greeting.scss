@@ -102,7 +102,6 @@
     flex-basis: 50%;
 
     @include tablets {
-        flex-basis: none;
         align-items: center;
     }
 }
@@ -110,6 +109,9 @@
 .greeting__content-left{
     display: block;
     margin-right: rem(11px);
+    @include phone{
+        max-width: 100%;
+    }
 }
 
 .section__title{
@@ -138,6 +140,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @include phone{
+        margin-bottom: 31px;
+    }
 }
 
 .greeting__triangle {

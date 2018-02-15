@@ -3,11 +3,11 @@
     background-position: 50%;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     justify-content: center;
     text-align: center;
     display:flex;
     align-items: center;
-    background-position: center center;
 }
 
 .best__main {
@@ -30,14 +30,19 @@
 
 .best__description-list {
     display:flex;
+    @include phone{
+        flex-direction: column;
+    }
 }
-
 
 .best__description-item {
     padding-top: rem(55px);
     padding-right: rem(36px); 
-    display: flex;  
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
+    @include phone{
+        flex-direction: row;
+    }
 }
 
 .best__description-title {
@@ -45,6 +50,17 @@
     text-align: center;
     font-family: 'Lifehack';
     font-size: rem(24px);
+    @include phone {
+        padding: 0;
+        text-align: left;
+    }
+}
+
+.best__description-icon{
+    @include phone{
+        width: 90%;
+        display:flex;
+    }
 }
 
 .best__description-text {
@@ -53,4 +69,8 @@
     text-align-last: center;
     flex-direction: column;
     font-size: rem(14px);
+    @include phone {
+        text-align: left;
+        text-align-last: auto;
+    }
 }

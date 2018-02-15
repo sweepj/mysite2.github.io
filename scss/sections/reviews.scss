@@ -57,6 +57,11 @@
         width: 275px;
         padding-top: 35px;
     }
+
+    @include phone {
+        padding-top: 45px;
+        width: auto;
+    }
 }
 
 .reviews__comment-title {
@@ -66,6 +71,9 @@
     @include tablets{
         display: flex;
         justify-content: center;
+    }
+    @include phone{
+        font-size: 24px;
     }
 }
 
@@ -80,6 +88,9 @@
         text-align: center;
         padding-top: 15px;
     }
+    @include phone{
+        display:none;
+    }
 }
 
 .order-link-reviews {
@@ -87,4 +98,9 @@
     &:hover{
         background-color: darken(#2f3234, 7%);
     }
+    @include phone{
+        content:"читать отзыв";
+        margin-top: 29px;
+    }
+
 }
