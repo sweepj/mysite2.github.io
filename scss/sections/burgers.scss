@@ -27,15 +27,24 @@
   right: 100px;
 }
 
+.burgers-btn__right, .burgers-btn__left{
+  cursor: pointer;
+}
 
-.burgers-btn__slider-left{
+
+.burgers-btn__slider-left, .burgers-btn__slider-right{
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+}
+
+.burgers-btn__slider-left{
+  left: 50px;
 }
 
 .burgers__triangle-left {
-  transform: rotate(145deg);
+  transform: rotate(135deg);
   border-bottom: rem(3px) solid black;
   border-right: rem(3px) solid black;
   border-bottom-right-radius: rem(7px); 
@@ -44,7 +53,7 @@
 }
 
 .burgers__triangle-right{
-  transform: rotate(-50deg);
+  transform: rotate(-45deg);
   border-bottom: rem(3px) solid black;
   border-right: rem(3px) solid black;;
   border-bottom-right-radius: rem(7px); 

@@ -4,7 +4,7 @@ const elementBlockSlide = document.querySelector('.burgers__item');
 
 var lastElement = 2000;
 var firstElement = 0;
-var step = 400;
+var step = 947;
 
 var counterStep = 0;
 

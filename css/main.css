@@ -572,7 +572,10 @@ ul {
   position: absolute;
   right: 100px; }
 
-.burgers-btn__slider-left {
+.burgers-btn__right, .burgers-btn__left {
+  cursor: pointer; }
+
+.burgers-btn__slider-left, .burgers-btn__slider-right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -581,12 +584,16 @@ ul {
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  position: absolute; }
+
+.burgers-btn__slider-left {
+  left: 50px; }
 
 .burgers__triangle-left {
-  -webkit-transform: rotate(145deg);
-  -ms-transform: rotate(145deg);
-  transform: rotate(145deg);
+  -webkit-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
   border-bottom: 0.1875rem solid black;
   border-right: 0.1875rem solid black;
   border-bottom-right-radius: 0.4375rem;
@@ -594,9 +601,9 @@ ul {
   height: 1.875rem; }
 
 .burgers__triangle-right {
-  -webkit-transform: rotate(-50deg);
-  -ms-transform: rotate(-50deg);
-  transform: rotate(-50deg);
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
   border-bottom: 0.1875rem solid black;
   border-right: 0.1875rem solid black;
   border-bottom-right-radius: 0.4375rem;
