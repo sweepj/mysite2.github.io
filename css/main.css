@@ -988,6 +988,7 @@ ul {
   height: 100%;
   float: left;
   background: rgba(47, 50, 52, 0.93);
+  color: #fff;
   width: 0;
   overflow: hidden; }
 
@@ -998,6 +999,15 @@ ul {
   width: 100%;
   line-height: 1.8;
   display: none; }
+
+.menu__acco-active .menu-burger__trigger .menu-burger__trigger-text {
+  color: #f9b43b; }
+
+.menu__acco-active .menu-burger__content {
+  width: 600px;
+  overflow: visible; }
+  .menu__acco-active .menu-burger__content .menu-burger__text {
+    display: block; }
 
 .footer {
   background-image: url("../images/background/footer.jpg");
