@@ -108,6 +108,50 @@ ul {
 .icon {
   color: #fff; }
 
+.reviews__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(221, 0, 0, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 10000; }
+
+.container__overlay {
+  position: relative; }
+
+.content__overlay {
+  width: 400px;
+  background: #444;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+  font: 16px Helvetica, sans-serif;
+  margin: 0; }
+
+.overlay-close {
+  font: 16px Helvetica, sans-serif;
+  color: #fff;
+  position: absolute;
+  right: -5px;
+  top: -10px;
+  background: #d00;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none; }
+
 .fixed-menu {
   position: fixed;
   top: 5rem;
