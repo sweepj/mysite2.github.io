@@ -1,21 +1,120 @@
 .burgers{
+  background: linear-gradient(orange, gold);
   display:flex;
   align-items: center;
+  position:relative;
 }
 
 .burgers__container{
+  position: relative;
   overflow: hidden;
 }
 
 .burgers__item{
+  transition: .3s;
   display: flex;
   position: relative;
   will-change: right;
 }
 
+.burgers__right{
+  margin-left: 15px;
+}
+
+.burgers__order, .burgers-link{
+  margin-top: 36px;
+}
+
+
+.burgers__composition{
+  position: relative;
+  &:hover{
+    .burgers__composition-list{
+      top:0px;
+      left:90px;
+    }
+  }
+}
+
+.burgers__composition-list{
+  left: -9999px;
+  position:absolute;
+  background-color: #fff;
+  width: 360px;
+  height: 330px;
+  z-index: 10000;
+}
+
+.burgers__composition{
+  width: rem(90px);
+  height: rem(90px);
+  background: rgba(227, 80, 40, 0.4);
+  border-radius: rem(5px);
+}
+
+.burgers__title, .burgers__price{
+  font-size: 4.5rem;
+  color: #fff;
+  font-family: 'Gagalin';
+  font-weight: 300;
+  line-height: 1;
+  margin: 0;
+}
+
+.burgers__description{
+  margin-top: rem(56px);
+  color: #fff;
+  line-height: 1.7;
+  font-weight: 300;
+}
+
+.burgers__price{
+  color: $mainorange;
+}
+
+.burgers-link, .burgers__order{
+  display: inline-flex;
+}
+
+.burgers-link{
+  margin-left: 60px;
+}
+
+.burgers__svg{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.burgers__composition-text{
+  text-align: center; 
+  font-size: rem(14px);
+  color: #fff;
+  font-family: 'Gagalin';
+  font-weight: 300;
+  line-height: 1;
+  margin: 0;
+}
+
+.burgers__currency{
+  font-size: rem(35px);
+  color: $mainorange;
+  font-family: 'Gagalin';
+  font-weight: 300;
+  line-height: 2.8;
+  margin: 0;
+}
+
 .burgers__list {
   display: flex;
+
 }
+
+.burgers__left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .burgers__right{
   display: flex;
@@ -45,8 +144,8 @@
 
 .burgers__triangle-left {
   transform: rotate(135deg);
-  border-bottom: rem(3px) solid black;
-  border-right: rem(3px) solid black;
+  border-bottom: rem(3px) solid #fff;
+  border-right: rem(3px) solid #fff;
   border-bottom-right-radius: rem(7px); 
   width: rem(30px);
   height: rem(30px);
@@ -54,8 +153,8 @@
 
 .burgers__triangle-right{
   transform: rotate(-45deg);
-  border-bottom: rem(3px) solid black;
-  border-right: rem(3px) solid black;;
+  border-bottom: rem(3px) solid #fff;
+  border-right: rem(3px) solid #fff;
   border-bottom-right-radius: rem(7px); 
   width: rem(30px);
   height: rem(30px);

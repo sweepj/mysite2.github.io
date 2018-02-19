@@ -16,6 +16,7 @@
 }
 
 .menu-burger__list {
+
   position: absolute;
   right: 0;
   top: 0;
@@ -24,10 +25,12 @@
 }
 
 .menu-burger__item {
+
   height: 100%;
 }
 
 .menu-burger__bg {
+
   width: 100%;
   height: 100%;
   background: rgba(#2f3234, .93);
@@ -60,6 +63,7 @@
 }
 
 .menu-burger__content {
+  transition: .8s;
   height: 100%;
   float: left;
   background: rgba(#2f3234, .93);

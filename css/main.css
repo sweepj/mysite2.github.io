@@ -58,17 +58,23 @@ ul {
 .wrapper {
   position: relative;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  overflow: hidden; }
 
 .maincontent {
+  position: relative;
   height: 100%;
-  min-height: 650px; }
+  min-height: 650px;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  will-change: transform; }
 
 .container {
   position: relative;
   margin: 0 auto;
-  width: 100%;
-  max-width: 940px;
+  width: 95%;
+  max-width: 58.75rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -584,27 +590,119 @@ ul {
       margin-top: 29px; } }
 
 .burgers {
+  background: -webkit-gradient(linear, left top, left bottom, from(orange), to(gold));
+  background: -webkit-linear-gradient(orange, gold);
+  background: -o-linear-gradient(orange, gold);
+  background: linear-gradient(orange, gold);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  position: relative; }
 
 .burgers__container {
+  position: relative;
   overflow: hidden; }
 
 .burgers__item {
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: relative;
   will-change: right; }
 
+.burgers__right {
+  margin-left: 15px; }
+
+.burgers__order, .burgers-link {
+  margin-top: 36px; }
+
+.burgers__composition {
+  position: relative; }
+  .burgers__composition:hover .burgers__composition-list {
+    top: 0px;
+    left: 90px; }
+
+.burgers__composition-list {
+  left: -9999px;
+  position: absolute;
+  background-color: #fff;
+  width: 360px;
+  height: 330px;
+  z-index: 10000; }
+
+.burgers__composition {
+  width: 5.625rem;
+  height: 5.625rem;
+  background: rgba(227, 80, 40, 0.4);
+  border-radius: 0.3125rem; }
+
+.burgers__title, .burgers__price {
+  font-size: 4.5rem;
+  color: #fff;
+  font-family: 'Gagalin';
+  font-weight: 300;
+  line-height: 1;
+  margin: 0; }
+
+.burgers__description {
+  margin-top: 3.5rem;
+  color: #fff;
+  line-height: 1.7;
+  font-weight: 300; }
+
+.burgers__price {
+  color: #e25028; }
+
+.burgers-link, .burgers__order {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+.burgers-link {
+  margin-left: 60px; }
+
+.burgers__svg {
+  margin-top: 10px;
+  text-align: center; }
+
+.burgers__composition-text {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #fff;
+  font-family: 'Gagalin';
+  font-weight: 300;
+  line-height: 1;
+  margin: 0; }
+
+.burgers__currency {
+  font-size: 2.1875rem;
+  color: #e25028;
+  font-family: 'Gagalin';
+  font-weight: 300;
+  line-height: 2.8;
+  margin: 0; }
+
 .burgers__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+
+.burgers__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
 
 .burgers__right {
   display: -webkit-box;
@@ -638,8 +736,8 @@ ul {
   -webkit-transform: rotate(135deg);
   -ms-transform: rotate(135deg);
   transform: rotate(135deg);
-  border-bottom: 0.1875rem solid black;
-  border-right: 0.1875rem solid black;
+  border-bottom: 0.1875rem solid #fff;
+  border-right: 0.1875rem solid #fff;
   border-bottom-right-radius: 0.4375rem;
   width: 1.875rem;
   height: 1.875rem; }
@@ -648,8 +746,8 @@ ul {
   -webkit-transform: rotate(-45deg);
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  border-bottom: 0.1875rem solid black;
-  border-right: 0.1875rem solid black;
+  border-bottom: 0.1875rem solid #fff;
+  border-right: 0.1875rem solid #fff;
   border-bottom-right-radius: 0.4375rem;
   width: 1.875rem;
   height: 1.875rem; }
@@ -862,6 +960,9 @@ ul {
   text-align: left; }
 
 .team__acco {
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
   color: #fff; }
   @media screen and (max-width: 765px) {
     .team__acco {
@@ -877,6 +978,9 @@ ul {
       align-items: center; } }
 
 .team__acco-cause {
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
   font-size: 0.875rem;
   font-weight: 400;
   display: -webkit-box;
@@ -913,6 +1017,9 @@ ul {
   background-repeat: no-repeat; }
 
 .team__acco-img {
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
   display: none;
   max-height: 100%;
   max-width: 100%; }
@@ -1029,6 +1136,9 @@ ul {
   margin-top: -1.25rem; }
 
 .menu-burger__content {
+  -webkit-transition: .8s;
+  -o-transition: .8s;
+  transition: .8s;
   height: 100%;
   float: left;
   background: rgba(47, 50, 52, 0.93);

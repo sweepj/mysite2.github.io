@@ -7,7 +7,6 @@
 
 .team__content {
   width: 70%;
-
   @include tablets{
     display:flex;
     flex-direction: column;
@@ -37,8 +36,8 @@
 }
 
 .team__acco {
+  transition: .3s;
   color: #fff;
-
   @include tablets{
     display:flex;
     flex-direction: column; 
@@ -47,6 +46,7 @@
 }
 
 .team__acco-cause {
+  transition: .3s;
   font-size: rem(14px);
   font-weight: 400;
   display: flex;
@@ -82,6 +82,7 @@
 }
 
 .team__acco-img{
+  transition: .3s;
   display: none;
   max-height: 100%;
   max-width: 100%;
@@ -89,6 +90,7 @@
 
 .team__acco-item--active {
   .team__acco-cause {
+
     color: $darkyellow;
     &:before{
       transform: rotate(180deg);
@@ -128,6 +130,4 @@
 .team__acco-text-title {
   line-height: rem(15px);
   font-weight: 700;
-
-
 }

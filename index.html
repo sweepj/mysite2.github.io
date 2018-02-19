@@ -16,7 +16,7 @@
 <body>
     <div class="wrapper">
         <div class="maincontent">
-            <section class="section greeting">   
+            <section class="section greeting active">   
                 <div class="container greeting__container">
                     <header class="header">
                         <a href="#" class="logo">
@@ -132,6 +132,38 @@
                     </div>
                 </span>
                 <div class="container burgers__container">
+                    <div class="burgers__composition">
+                        <div class="burgers__svg">
+                            <img src="images/content/burger.svg" alt="burger svg" class="burgers__img">
+                        </div>
+                        <div class="burgers__composition-text">состав</div>
+                        <ul class="burgers__composition-list">
+                            <li class="burgers__compsition-item">
+                                <img src="" alt="" class="burgers__list-icon">
+                                <div class="burgers__list-text"></div>
+                            </li>
+                            <li class="burgers__compsition-item">
+                                <img src="" alt="" class="burgers__list-icon">
+                                <div class="burgers__list-text"></div>
+                            </li>
+                            <li class="burgers__compsition-item">
+                                <img src="" alt="" class="burgers__list-icon">
+                                <div class="burgers__list-text"></div>
+                            </li>
+                            <li class="burgers__compsition-item">
+                                <img src="" alt="" class="burgers__list-icon">
+                                <div class="burgers__list-text"></div>
+                            </li>
+                            <li class="burgers__compsition-item">
+                                <img src="" alt="" class="burgers__list-icon">
+                                <div class="burgers__list-text"></div>
+                            </li>
+                            <li class="burgers__compsition-item">
+                                <img src="" alt="" class="burgers__list-icon">
+                                <div class="burgers__list-text"></div>
+                            </li>
+                        </ul>
+                    </div>
                     <ul class="burgers__item">
                         <li class="burgers__list">
                             <div class="burgers__left">
@@ -139,10 +171,15 @@
                             </div>
                             <div class="burgers__right">
                                 <div class="burgers__content">
-                                    <div class="burgers__title"></div>
+                                    <div class="burgers__title section__title">DARK BEEF BURGER</div>
                                     <div class="burgers__description">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vitae porro, nesciunt fugit nam ad maiores velit totam animi odio itaque. Hic nobis nulla maxime laborum ea magnam. Cum, delectus!
                                     </div>
+                                    <div class="burgers__order">
+                                        <div class="burgers__price">500</div>
+                                        <div class="burgers__currency">Рублей</div>
+                                    </div>
+                                    <a class="burgers-link order-link">Заказать</a>
                                 </div>
                             </div>
                         </li>
@@ -152,10 +189,15 @@
                             </div>
                             <div class="burgers__right">
                                 <div class="burgers__content">
-                                    <div class="burgers__title"></div>
+                                    <div class="burgers__title">DARK BEEF BURGER</div>
                                     <div class="burgers__description">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vitae porro, nesciunt fugit nam ad maiores velit totam animi odio itaque. Hic nobis nulla maxime laborum ea magnam. Cum, delectus!!
                                     </div>
+                                    <div class="burgers__order">
+                                        <div class="burgers__price">600</div>
+                                        <div class="burgers__currency">Рублей</div>
+                                    </div>
+                                    <a class="burgers-link order-link">Заказать</a>
                                 </div>
                             </div>
                         </li>
@@ -167,13 +209,14 @@
                     </div>
                 </span>
             </section>
+
             <section class="section team">
                 <div class="team__container">
                     <div class="team__content">
                         <h2 class="section__title">Команда</h2>
                         <ul class="team__acco">
                             <li class="team__acco-item">
-                                <a href="#" class="team__acco-cause">Дэниел Редклиф</a>
+                                <a class="team__acco-cause">Дэниел Редклиф</a>
                                 <div class="team__acco-content">
                                     <div class="team-acco__pic">
                                         <div class="team__acco-avatar" style="background-image: url(images/content/team/photo-team.jpg)">
@@ -191,7 +234,7 @@
                                 </div>
                             </li>
                             <li class="team__acco-item">
-                                <a href="#" class="team__acco-cause">Дэниел Редклиф</a>
+                                <a class="team__acco-cause">Дэниел Редклиф</a>
                                 <div class="team__acco-content">
                                     <div class="team-acco__pic">
                                         <div class="team__acco-avatar" style="background-image: url(images/content/team/photo-team.jpg)">
@@ -209,7 +252,7 @@
                                 </div>
                             </li>
                             <li class="team__acco-item">
-                                <a href="#" class="team__acco-cause">Дэниел Редклиф</a>
+                                <a class="team__acco-cause">Дэниел Редклиф</a>
                                 <div class="team__acco-content">
                                     <div class="team-acco__pic">
                                         <div class="team__acco-avatar" style="background-image: url(images/content/team/photo-team.jpg)">
@@ -227,7 +270,7 @@
                                 </div>
                             </li>
                             <li class="team__acco-item">
-                                <a href="#" class="team__acco-cause">Дэниел Редклиф</a>
+                                <a class="team__acco-cause">Дэниел Редклиф</a>
                                 <div class="team__acco-content">
                                     <div class="team-acco__pic">
                                         <div class="team__acco-avatar" style="background-image: url(images/content/team/photo-team.jpg)">
@@ -253,7 +296,7 @@
                 <h2 class="section__title section__title-menu">Меню</h2>
                 <ul class="menu-burger__list">
                     <li class="menu-burger__item">
-                        <a href="#" class="menu-burger__trigger" style="background-image: url(images/content/menu/meat.jpg)">
+                        <a class="menu-burger__trigger" style="background-image: url(images/content/menu/meat.jpg)">
                             <div class="menu-burger__bg">
                                 <div class="menu-burger__trigger-text">Для мясоедов</div>
                             </div>
@@ -270,7 +313,7 @@
                         </div>
                         </li>
                     <li class="menu-burger__item">
-                        <a href="#" class="menu-burger__trigger" style="background-image: url(images/content/menu/veggie.jpg)">
+                        <a class="menu-burger__trigger" style="background-image: url(images/content/menu/veggie.jpg)">
                             <div class="menu-burger__bg">
                                 <div class="menu-burger__trigger-text">Вегетарианское</div>
                             </div>
@@ -287,7 +330,7 @@
                         </div>  
                     </li>
                     <li class="menu-burger__item" >
-                        <a href="#" class="menu-burger__trigger" style="background-image: url(images/content/menu/diet.jpg)">
+                        <a class="menu-burger__trigger" style="background-image: url(images/content/menu/diet.jpg)">
                             <div class="menu-burger__bg">
                                 <div class="menu-burger__trigger-text">Диетическое</div>
                             </div>
@@ -534,6 +577,9 @@
             <a href="#" class="fixed-menu__link"></a>
         </li>
     </ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.3.6/mobile-detect.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/teamScript.js"></script>
     <script src="js/menuAccoScript.js"></script>
@@ -546,6 +592,7 @@
             </div>
         </div>
     </script>
+    <script src="js/main.js"></script>
     <script src="js/overlayReview.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3zsGWTAuPCmO_Mw89_HTjmM0p1ba1vmU&callback=initMap">

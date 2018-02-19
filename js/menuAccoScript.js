@@ -6,7 +6,7 @@ menuBlockAcco.onclick = function(event){
   var target = event.target;
   for(var j = 0; j < menuItems.length; j++){
     if((target === menuItems[j]) || (target.parentNode === menuItems[j])){  
-      menuTrigger[j].classList.add('menu__acco-active');
+      menuTrigger[j].classList.toggle('menu__acco-active');
     }
     else{
       menuTrigger[j].classList.remove('menu__acco-active');
