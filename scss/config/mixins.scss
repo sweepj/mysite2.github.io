@@ -8,3 +8,15 @@
     border-radius: $width/2;
     background-color: $color;
 }
+
+%clearfix {
+	&:before,
+	&:after {
+		content: "";
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+}

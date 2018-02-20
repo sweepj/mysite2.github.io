@@ -1,7 +1,6 @@
 .greeting {
     background: url(../images/background/greeting-bg.png) center center no-repeat;
     background-size: cover;
-    position: relative;
 }
 
 .header {
@@ -20,6 +19,7 @@
 
 .header__btn{
     display:flex;
+    align-items: center;
 }
 
 .header__nav {
@@ -71,7 +71,6 @@
 
 
 .greeting__container {
-    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -112,6 +111,16 @@
     @include phone{
         max-width: 100%;
     }
+}
+
+
+.section__title{
+    font-size: rem(72px);
+    color: $darkyellow;
+    font-family: 'Gagalin';
+    font-weight: 300;
+    line-height: 1.42;
+    margin: 0;
 }
 
 .section__title{

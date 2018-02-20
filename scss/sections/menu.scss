@@ -16,21 +16,20 @@
 }
 
 .menu-burger__list {
-
   position: absolute;
   right: 0;
   top: 0;
   bottom: 0;
   display: flex;
+  @extend %clearfix;
 }
 
 .menu-burger__item {
-
+  float:left;
   height: 100%;
 }
 
 .menu-burger__bg {
-
   width: 100%;
   height: 100%;
   background: rgba(#2f3234, .93);
@@ -79,6 +78,9 @@
   width: 100%;
   line-height: 1.8;
   display: none;
+  @include phone{
+    padding: rem(25px) rem(15px);
+  }
 }
 
 .menu__acco-active {
@@ -89,8 +91,16 @@
   }
   
   .menu-burger__content{
-    width: 600px;
-    overflow: visible;  
+    width: rem(600px);
+    overflow: visible; 
+
+    @include tablets{
+      width: rem(380px);
+    }
+
+    @include phone{
+      width: 150px;
+    }
     .menu-burger__text{
       display: block;
     }

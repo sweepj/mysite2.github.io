@@ -47,6 +47,10 @@
                             </nav>
                             <div class="header__btn">
                                 <a href="#" class="order-link">Заказать</a>
+                                <a href="" class="hamburger-menu__link">
+                                    <div class="hamburger-menu__link-bars">
+                                    </div>
+                                </a>
                             </div>
                         </div>      
                     </header>
@@ -131,7 +135,7 @@
                         <div class="burgers__triangle-left"></div>
                     </div>
                 </span>
-                <div class="container burgers__container">
+                <div class="burgers__container">
                     <div class="burgers__composition">
                         <div class="burgers__svg">
                             <img src="images/content/burger.svg" alt="burger svg" class="burgers__img">
@@ -139,28 +143,46 @@
                         <div class="burgers__composition-text">состав</div>
                         <ul class="burgers__composition-list">
                             <li class="burgers__compsition-item">
-                                <img src="" alt="" class="burgers__list-icon">
-                                <div class="burgers__list-text"></div>
+                                <img src="images/content/meat.svg" alt="" class="burgers__list-icon">
+                                <div class="burgers__list-desc">
+                                    <div class="burgers__list-text">Говядина</div>
+                                    <div class="burgers__text-weight">400г</div>
+                                </div>
                             </li>
                             <li class="burgers__compsition-item">
-                                <img src="" alt="" class="burgers__list-icon">
-                                <div class="burgers__list-text"></div>
+                                <img src="images/content/meat.svg" alt="" class="burgers__list-icon">
+                                <div class="burgers__list-desc">
+                                    <div class="burgers__list-text">Говядина</div>
+                                    <div class="burgers__text-weight">400г</div>
+                                </div>
                             </li>
                             <li class="burgers__compsition-item">
-                                <img src="" alt="" class="burgers__list-icon">
-                                <div class="burgers__list-text"></div>
+                                <img src="images/content/meat.svg" alt="" class="burgers__list-icon">
+                                <div class="burgers__list-desc">
+                                    <div class="burgers__list-text">Говядина</div>
+                                    <div class="burgers__text-weight">400г</div>
+                                </div>
                             </li>
                             <li class="burgers__compsition-item">
-                                <img src="" alt="" class="burgers__list-icon">
-                                <div class="burgers__list-text"></div>
+                                <img src="images/content/meat.svg" alt="" class="burgers__list-icon">
+                                <div class="burgers__list-desc">
+                                    <div class="burgers__list-text">Говядина</div>
+                                    <div class="burgers__text-weight">400г</div>
+                                </div>
                             </li>
                             <li class="burgers__compsition-item">
-                                <img src="" alt="" class="burgers__list-icon">
-                                <div class="burgers__list-text"></div>
+                                <img src="images/content/meat.svg" alt="" class="burgers__list-icon">
+                                <div class="burgers__list-desc">
+                                    <div class="burgers__list-text">Говядина</div>
+                                    <div class="burgers__text-weight">400г</div>
+                                </div>
                             </li>
                             <li class="burgers__compsition-item">
-                                <img src="" alt="" class="burgers__list-icon">
-                                <div class="burgers__list-text"></div>
+                                <img src="images/content/meat.svg" alt="logo compsit" class="burgers__list-icon">
+                                <div class="burgers__list-desc">
+                                    <div class="burgers__list-text">Говядина</div>
+                                    <div class="burgers__text-weight">400г</div>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -203,7 +225,7 @@
                         </li>
                     </ul>
                 </div>
-                <span class="burgers-btn__slider right-btn">
+                <span class="burgers-btn__slider-right">
                     <div class="burgers-btn__right">
                         <div class="burgers__triangle-right"></div>
                     </div>
@@ -430,57 +452,57 @@
                 <div class="container">
                     <div class="section__title section__title-order">Закажите доставку</div>
                     <div class="form-block">
-                        <form class="form">
+                        <form class="form" action="server.php" method="post" id="form">
                             <div class="form__content">
                                 <div class="form__right">
                                     <div class="form__line">
                                         <div class="form__block">
-                                            <label class="form__block-title">Имя</label>
-                                            <input type="text" class="form__input">
+                                            <label for="user-name"class="form__block-title">Имя</label>
+                                            <input type="text" class="form__input" id="user-name">
                                         </div>
                                         <div class="form__block">
-                                            <label class="form__block-title">Телефон</label>
-                                            <input type="tel" class="form__input">
-                                        </div>
-                                    </div>
-                                    <div class="form__line">
-                                        <div class="form__block">
-                                            <label class="form__block-title">Улица</label>
-                                            <input type="text" class="form__input">
+                                            <label class="form__block-title" form="tel">Телефон</label>
+                                            <input type="tel" class="form__input" id="tel">
                                         </div>
                                     </div>
                                     <div class="form__line">
                                         <div class="form__block">
-                                            <label class="form__block-title">Дом</label>
-                                            <input type="text" class="form__input">
+                                            <label class="form__block-title" for="street">Улица</label>
+                                            <input type="text" class="form__input" id="street">
+                                        </div>
+                                    </div>
+                                    <div class="form__line">
+                                        <div class="form__block">
+                                            <label class="form__block-title" for="house">Дом</label>
+                                            <input type="text" class="form__input" id="house">
                                         </div>
                                         <div class="form__block">
-                                            <label class="form__block-title">Корпус</label>
-                                            <input type="text" class="form__input">
+                                            <label class="form__block-title" for="housing">Корпус</label>
+                                            <input type="text" class="form__input" id="housing">
                                         </div>
                                         <div class="form__block">
-                                            <label class="form__block-title">Квартира</label>
-                                            <input type="text" class="form__input">
+                                            <label class="form__block-title" for="apartment">Квартира</label>
+                                            <input type="text" class="form__input" id="apartment">
                                         </div>
                                         <div class="form__block form-mobile__none">
-                                            <label class="form__block-title">Этаж</label>
-                                            <input type="text" class="form__input">
+                                            <label class="form__block-title" for='floor'>Этаж</label>
+                                            <input type="text" class="form__input" id="floor">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form__left">
                                     <div class="form__line">
                                         <div class="form__block">
-                                            <label class="form__block-title">Комментарий</label>
-                                            <textarea cols="30" rows="10" class="form__textarea"></textarea>
+                                            <label class="form__block-title" for="comment">Комментарий</label>
+                                            <textarea cols="30" rows="10" class="form__textarea" id="comment"></textarea>
                                         </div>
                                     </div>
                                     <div class="form__line">
                                         <div class="form__block">
                                             <div class="form__block-radiobtn">
-                                                <input type="radio" class="form__input-radiobtn visuallyhidden" id="form__label-delivery" name="payment">
+                                                <input type="radio" class="form__input-radiobtn visuallyhidden" id="form__label-delivery" name="payment" value="Сдача">
                                                 <label for="form__label-delivery" class="form__radio-label">Потребуется сдача</label>
-                                                <input type="radio" class="form__input-radiobtn visuallyhidden" id="form__label-card" name="payment">
+                                                <input type="radio" class="form__input-radiobtn visuallyhidden" id="form__label-card" name="payment" value="Оплата картой">
                                                 <label for="form__label-card" class="form__radio-label">Оплата по карте</label>
                                             </div>
                                         </div>
@@ -493,7 +515,7 @@
                                     </div>
                                     <div class="form__btn">
                                         <div class="form__btn-order">
-                                            <a href="#" class="order-link">Заказать</a>
+                                            <buttom type="submit" class="order-link">Заказать</button>
                                         </div>
                                         <div class="form__btn-clear">
                                             <a href="#" class="clear-link">Очистить</a>
@@ -592,11 +614,11 @@
             </div>
         </div>
     </script>
-    <script src="js/main.js"></script>
     <script src="js/overlayReview.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3zsGWTAuPCmO_Mw89_HTjmM0p1ba1vmU&callback=initMap">
     </script>
+    <script src="js/OnePageScroll.js"></script>
     <script src="js/initMap.js"></script>
 </body>
 </html> 

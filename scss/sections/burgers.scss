@@ -1,6 +1,6 @@
 .burgers{
   background: linear-gradient(orange, gold);
-  display:flex;
+  display: flex;
   align-items: center;
   position:relative;
 }
@@ -8,40 +8,77 @@
 .burgers__container{
   position: relative;
   overflow: hidden;
+  margin: 0 auto;
+  width: rem(940px);
+  @include tablets{
+    width: rem(540px);
+  }
 }
 
 .burgers__item{
   transition: .3s;
   display: flex;
+  right:0;
   position: relative;
   will-change: right;
+
 }
 
 .burgers__right{
-  margin-left: 15px;
+  margin-left: rem(15px);
+  @include tablets(){
+    text-align: center;
+  }
 }
 
 .burgers__order, .burgers-link{
-  margin-top: 36px;
+  margin-top: rem(36px);
 }
 
 
 .burgers__composition{
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   &:hover{
     .burgers__composition-list{
-      top:0px;
-      left:90px;
+      top:rem(0px);
+      left:rem(90px);
     }
   }
 }
 
+.burgers__compsition-item{
+  display: flex;
+}
+
+.burgers__list-icon, .burgers__list-desc{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.burgers__text-weight{
+  margin-left: rem(60px);
+}
+
+.burgers__list-desc{
+  margin-left: rem(10px);
+}
+
+.burgers__list-icon{
+  width: rem(45px);
+  height: rem(45px);
+}
+
 .burgers__composition-list{
-  left: -9999px;
+  left: -9990px;
   position:absolute;
-  background-color: #fff;
-  width: 360px;
-  height: 330px;
+  background: rgba(#fff,0.7);
+  width: rem(270px);
+  height: rem(270px);
   z-index: 10000;
 }
 
@@ -77,11 +114,10 @@
 }
 
 .burgers-link{
-  margin-left: 60px;
+  margin-left: rem(60px);
 }
 
 .burgers__svg{
-  margin-top: 10px;
   text-align: center;
 }
 
@@ -106,7 +142,11 @@
 
 .burgers__list {
   display: flex;
-
+  @include tablets{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 }
 
 .burgers__left{
@@ -118,12 +158,17 @@
 
 .burgers__right{
   display: flex;
-  width: 441px;
+  width: rem(422px);
 }
 
-.right-btn{
+
+.burgers-btn__slider-right{
   position: absolute;
-  right: 100px;
+  right: rem(20px);
+  z-index: 1000;
+  @include tablets(){
+    right: rem(10px);
+  }
 }
 
 .burgers-btn__right, .burgers-btn__left{
@@ -139,7 +184,12 @@
 }
 
 .burgers-btn__slider-left{
-  left: 50px;
+  position: absolute;
+  left: rem(20px);
+  z-index: 1000;
+  @include tablets(){
+    left:rem(10px);
+  }
 }
 
 .burgers__triangle-left {
